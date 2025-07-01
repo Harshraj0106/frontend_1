@@ -16,7 +16,7 @@
 
     html, body {
       height: 100%;
-      background: #ffffff;
+      background: #f9f9f9;
       color: #333;
     }
 
@@ -24,24 +24,25 @@
       display: flex;
       justify-content: center;
       align-items: start;
+      padding: 40px;
     }
 
     .container {
       width: 100%;
-      max-width: 480px;
+      max-width: 900px;
       background: #fff;
-      border-radius: 30px 30px 0 0;
+      border-radius: 20px;
       overflow: hidden;
-      min-height: 100vh;
+      min-height: 90vh;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
     .top-image {
       position: relative;
       width: 100%;
-      aspect-ratio: 16 / 9;
+      height: 400px;
       overflow: hidden;
     }
 
@@ -54,8 +55,8 @@
 
     .back-btn {
       position: absolute;
-      top: 10px;
-      left: 10px;
+      top: 20px;
+      left: 20px;
       font-size: 20px;
       background: white;
       border: none;
@@ -65,18 +66,19 @@
     }
 
     .card {
-      padding: 20px;
+      padding: 30px 40px;
       flex: 1;
     }
 
     .card h2 {
       font-weight: 700;
+      font-size: 28px;
     }
 
     .name {
       color: #666;
       margin-top: 4px;
-      font-size: 14px;
+      font-size: 16px;
     }
 
     .name span {
@@ -86,33 +88,33 @@
 
     .actions {
       display: flex;
-      justify-content: space-around;
-      margin: 20px 0;
+      gap: 20px;
+      margin: 25px 0;
     }
 
     .actions button {
       background: #f0edfc;
       border: none;
-      padding: 12px;
-      border-radius: 12px;
+      padding: 12px 20px;
+      border-radius: 10px;
       cursor: pointer;
-      width: 70px;
-      text-align: center;
+      font-size: 14px;
     }
 
     .about h3 {
       margin-bottom: 6px;
+      font-size: 18px;
     }
 
     .about p {
       color: #666;
-      font-size: 14px;
+      font-size: 15px;
     }
 
     .stats {
       display: flex;
       justify-content: space-around;
-      margin: 20px 0;
+      margin: 30px 0;
       text-align: center;
     }
 
@@ -123,19 +125,21 @@
 
     .stats strong {
       display: block;
-      font-size: 18px;
+      font-size: 20px;
       color: #000;
     }
 
     .reviews h3 {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+      font-size: 18px;
     }
 
     .review {
       background: #f5f5f5;
       border-radius: 12px;
-      padding: 12px;
+      padding: 15px;
       margin-bottom: 10px;
+      font-size: 15px;
     }
 
     .bottom-bar {
@@ -143,14 +147,14 @@
       justify-content: space-between;
       align-items: center;
       background: #fff;
-      padding: 15px 20px;
+      padding: 20px 40px;
       border-top: 1px solid #ccc;
-      border-radius: 0 0 30px 30px;
+      border-radius: 0 0 20px 20px;
     }
 
     .bottom-bar p {
       font-weight: 600;
-      font-size: 18px;
+      font-size: 20px;
     }
 
     .bottom-bar span {
@@ -162,10 +166,11 @@
       background: #ff5f5f;
       color: white;
       border: none;
-      padding: 10px 25px;
+      padding: 12px 30px;
       border-radius: 25px;
       cursor: pointer;
       font-weight: 600;
+      font-size: 16px;
     }
   </style>
 </head>
